@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="ImgChooseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ImgChooseTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!--PopupWindow的动画-->
+    <style name="Animation">
+        <item name="android:windowEnterAnimation">@anim/anim_popupwindow_in</item>
+        <item name="android:windowExitAnimation">@anim/anim_popupwindow_out</item>
+    </style>
+
+  <!--  <style name="Theme_Gallery_Custom" parent="ImgChooseTheme.NoActionBar">
+        <item name="gallery_toolbar_bg">@color/colorPrimary</item>
+        <item name="gallery_toolbar_close_color">@color/white1</item>
+        <item name="gallery_toolbar_text_color">@color/white1</item>
+        <item name="gallery_page_bg">@color/white1</item>
+        <item name="gallery_default_image">@mipmap/img_hold_space</item>
+        <item name="gallery_imageview_bg">@color/white1</item>
+    </style>-->
+
+</resources>
