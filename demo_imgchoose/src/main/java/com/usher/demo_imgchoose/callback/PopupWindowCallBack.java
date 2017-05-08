@@ -6,10 +6,10 @@ package com.usher.demo_imgchoose.callback;
 
 public interface PopupWindowCallBack {
 
-    void item1Opera();
+    void item1Opera();//菜单1操作
 
-    void item2Opera();
+    void item2Opera();//菜单2操作
 
-    void item3Opera();
+    void item3Opera();//菜单3操作
 
 }
