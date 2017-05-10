@@ -13,7 +13,6 @@ import com.yanzhenjie.album.Album;
 
 import java.util.ArrayList;
 
-
 public class MainActivity extends AppCompatActivity implements FreshImgCallBack {
 
     private static final int REQUEST_CODE_GALLERY = 100;//打开相册

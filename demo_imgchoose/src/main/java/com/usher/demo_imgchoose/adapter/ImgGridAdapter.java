@@ -21,7 +21,8 @@ import com.usher.demo_imgchoose.callback.FreshImgCallBack;
 import java.util.ArrayList;
 
 /**
- * Created by Administrator on 2017/4/8.
+ * Created by UsherChen on 2017/4/8.
+ * Details 选择图片适配器
  */
 
 public class ImgGridAdapter extends BaseAdapter {

@@ -1,7 +1,8 @@
 package com.usher.demo_imgchoose.callback;
 
 /**
- * Created by Administrator on 2017/4/12.
+ * Created by UsherChen on 2017/4/12.
+ * Details 用于对适配器进行刷新
  */
 
 public interface FreshImgCallBack {

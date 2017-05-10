@@ -7,7 +7,8 @@ import com.facebook.drawee.backends.pipeline.Fresco;
 import com.facebook.imagepipeline.core.ImagePipelineConfig;
 
 /**
- * Created by Administrator on 2017/4/12.
+ * Created by UsherChen on 2017/4/12.
+ * Details MainApplication
  */
 
 public class MainApplication extends Application {
