@@ -20,7 +20,7 @@
         android:supportsRtl="true"
         android:theme="@style/ImgChooseTheme"
         tools:replace="android:label">
-        <activity android:name=".ui.activity.MainActivity">
+        <activity android:name=".activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,4 +1,4 @@
-package com.usher.demo_imgchoose.ui.activity;
+package com.usher.demo_imgchoose.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
