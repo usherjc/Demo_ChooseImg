@@ -11,3 +11,6 @@ and if this is helpful to u thanks for your star
 感谢[Alum](https://github.com/yanzhenjie/Album)库
 
 如果对您有用的话多谢送上宝贵的一星
+
+ ![image](Demo_ChooseImg/screenshot/screen_shot_1.png)
+ ![image](Demo_ChooseImg/screenshot/screen_shot_2.png)
