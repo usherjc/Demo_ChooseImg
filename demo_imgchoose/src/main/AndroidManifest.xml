@@ -28,6 +28,7 @@
             </intent-filter>
         </activity>
 
+        <!--注册相册Activity-->
         <activity
             android:name="com.yanzhenjie.album.AlbumActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
