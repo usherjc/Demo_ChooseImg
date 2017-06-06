@@ -12,5 +12,4 @@ and if this is helpful to u thanks for your star
 
 如果对您有用的话多谢送上宝贵的一星
 
- ![image](https://github.com/HelloLollipop/Demo_ChooseImg/blob/master/screenshot/screen_shot_1.png=200x)
- ![image](https://github.com/HelloLollipop/Demo_ChooseImg/blob/master/screenshot/screen_shot_2.png=200x)
+ ![image](http://upload-images.jianshu.io/upload_images/1780352-a84427538259bb28.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/960)
