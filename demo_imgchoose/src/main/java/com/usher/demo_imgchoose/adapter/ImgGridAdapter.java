@@ -75,6 +75,7 @@ public class ImgGridAdapter extends BaseAdapter {
                 }
             });
             holder.rlItemShow = (RelativeLayout) convertView.findViewById(R.id.rlItemShow);
+            convertView.setTag(holder);
         }
         //——————————————————————————————设置图片逻辑——————————————————————————————
         holder.ivItemAdd.setVisibility(View.GONE);
