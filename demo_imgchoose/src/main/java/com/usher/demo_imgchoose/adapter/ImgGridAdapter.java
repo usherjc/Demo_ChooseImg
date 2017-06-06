@@ -38,15 +38,6 @@ public class ImgGridAdapter extends BaseAdapter {
         this.maxImgCount = maxImgCount;
     }
 
-    /**
-     * 设置回调
-     *
-     * @param callBack freshImgCallBack
-     */
-    public void setImgShowFresh(FreshImgCallBack callBack) {
-        freshImgCallBack = callBack;
-    }
-
     @Override
     public int getCount() {
         if (imgList.size() < maxImgCount) {
@@ -68,8 +59,8 @@ public class ImgGridAdapter extends BaseAdapter {
 
     @Override
     public View getView(final int position, View convertView, ViewGroup parent) {
-        ViewHolder holder = null;
-        if (holder != null) {
+        ViewHolder holder;
+        if (convertView != null) {
             holder = (ViewHolder) convertView.getTag();
         } else {
             holder = new ViewHolder();
@@ -116,11 +107,15 @@ public class ImgGridAdapter extends BaseAdapter {
         return convertView;
     }
 
-    //显示图片
+    /**
+     * 设置图片显示出来
+     *
+     * @param position position of image
+     * @param holder   holder
+     */
     private void showImg(int position, ViewHolder holder) {
         holder.ivItemAdd.setVisibility(View.GONE);
         holder.rlItemShow.setVisibility(View.VISIBLE);
-        //设置图片
         ImageRequest request = ImageRequestBuilder.newBuilderWithSource(Uri.parse("file://" + imgList.get(position)))
                 .setProgressiveRenderingEnabled(true)
                 .setResizeOptions(new ResizeOptions(100, 100))
@@ -132,6 +127,15 @@ public class ImgGridAdapter extends BaseAdapter {
                 .setOldController(holder.sdvItemShowImg.getController())
                 .build();
         holder.sdvItemShowImg.setController(controller);
+    }
+
+    /**
+     * 设置回调
+     *
+     * @param callBack freshImgCallBack
+     */
+    public void setImgShowFresh(FreshImgCallBack callBack) {
+        freshImgCallBack = callBack;
     }
 
     class ViewHolder {
