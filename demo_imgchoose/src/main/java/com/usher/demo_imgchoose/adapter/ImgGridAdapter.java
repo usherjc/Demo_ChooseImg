@@ -32,10 +32,11 @@ public class ImgGridAdapter extends BaseAdapter {
     private int maxImgCount;
     private FreshImgCallBack freshImgCallBack;//针对三种操作逻辑所自定义的回调
 
-    public ImgGridAdapter(Context context, ArrayList<String> imgList, int maxImgCount) {
+    public ImgGridAdapter(Context context, ArrayList<String> imgList, int maxImgCount, FreshImgCallBack freshImgCallBack) {
         this.context = context;
         this.imgList = imgList;
         this.maxImgCount = maxImgCount;
+        this.freshImgCallBack = freshImgCallBack;
     }
 
     @Override
@@ -128,15 +129,6 @@ public class ImgGridAdapter extends BaseAdapter {
                 .setOldController(holder.sdvItemShowImg.getController())
                 .build();
         holder.sdvItemShowImg.setController(controller);
-    }
-
-    /**
-     * 设置回调
-     *
-     * @param callBack freshImgCallBack
-     */
-    public void setImgShowFresh(FreshImgCallBack callBack) {
-        freshImgCallBack = callBack;
     }
 
     class ViewHolder {

@@ -28,8 +28,7 @@ public class MainActivity extends AppCompatActivity implements FreshImgCallBack 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         gvImage = (GridView) findViewById(R.id.gvImage);
-        adapter = new ImgGridAdapter(this, imgList, maxImgSize);
-        adapter.setImgShowFresh(this);//实现刷新接口
+        adapter = new ImgGridAdapter(this, imgList, maxImgSize, this);
         gvImage.setAdapter(adapter);
     }
 
